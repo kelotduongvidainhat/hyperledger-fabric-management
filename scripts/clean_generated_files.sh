@@ -6,6 +6,11 @@ set -e
 REPO_ROOT=$(dirname "$0")/..
 NETWORK_DIR="${REPO_ROOT}/network"
 
+echo "Stopping containers..."
+if [ -f "${NETWORK_DIR}/docker-compose.yaml" ]; then
+    docker compose -f "${NETWORK_DIR}/docker-compose.yaml" down -v --remove-orphans
+fi
+
 echo "Cleaning generated files..."
 
 # Clean crypto-config

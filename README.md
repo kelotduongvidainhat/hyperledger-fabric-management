@@ -52,7 +52,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Fabric CA**: v1.5
 - **Docker**: v20.10+
 - **Docker Compose**: v2.x
-- **Node.js**: Missing (Needs v18+)
+- **Node.js**: v18+ (LTS)
 - **Go**: v1.20+
 
 

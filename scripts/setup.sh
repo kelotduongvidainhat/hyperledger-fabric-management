@@ -4,8 +4,8 @@
 set -e
 
 # Versions
-FABRIC_VERSION="2.5.4"
-CA_VERSION="1.5.7"
+FABRIC_VERSION="2.5.9"
+CA_VERSION="1.5.12"
 
 echo "Checking Prerequisites..."
 
@@ -60,12 +60,12 @@ check_and_pull() {
     fi
 }
 
-check_and_pull "hyperledger/fabric-tools:2.5"
-check_and_pull "hyperledger/fabric-peer:2.5"
-check_and_pull "hyperledger/fabric-orderer:2.5"
-check_and_pull "hyperledger/fabric-ccenv:2.5"
-check_and_pull "hyperledger/fabric-baseos:2.5"
-check_and_pull "hyperledger/fabric-ca:1.5"
+check_and_pull "hyperledger/fabric-tools:2.5.9"
+check_and_pull "hyperledger/fabric-peer:2.5.9"
+check_and_pull "hyperledger/fabric-orderer:2.5.9"
+check_and_pull "hyperledger/fabric-ccenv:2.5.9"
+check_and_pull "hyperledger/fabric-baseos:2.5.9"
+check_and_pull "hyperledger/fabric-ca:1.5.12"
 
 echo "---------------------------------"
 echo "Setup completed successfully."
