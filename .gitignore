@@ -1,0 +1,27 @@
+# Generated Artifacts
+network/crypto-config/
+network/channel-artifacts/
+network/genesis.block
+network/channel.tx
+network/*.block
+network/*.tx
+network/core.yaml
+
+# Temporary Files
+tmp/
+*.log
+*.tmp
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Node
+node_modules/
+npm-debug.log
+
+# Fabric Binaries (Optional: if we don't want to commit binaries)
+bin/
+config/
+builders/
